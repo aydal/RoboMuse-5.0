@@ -1,0 +1,32 @@
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/./env.sh
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/./_setup_util.py
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/./setup.zsh
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/./setup.bash
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/./setup.sh
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/ayush/Documents/robomuse_nav_ws/src/robomuse5_navigation/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/env.sh, /home/ayush/Documents/robomuse5_navigation/devel/./env.sh)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/ayush/Documents/robomuse5_navigation/devel/./_setup_util.py)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/setup.zsh, /home/ayush/Documents/robomuse5_navigation/devel/./setup.zsh)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/setup.bash, /home/ayush/Documents/robomuse5_navigation/devel/./setup.bash)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/setup.sh, /home/ayush/Documents/robomuse5_navigation/devel/./setup.sh)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/ayush/Documents/robomuse5_navigation/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/ayush/Documents/robomuse5_navigation/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Cleaning: (/home/ayush/Documents/robomuse5_navigation/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/ayush/Documents/robomuse5_navigation/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}
+Unlinking: /home/ayush/Documents/robomuse5_navigation/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
