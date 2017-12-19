@@ -32,6 +32,8 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <iostream>
 #include "ros_arduino_base/ros_arduino_base.h"
 
+std::string odom_frame_="odom",base_frame_="base_link";	
+	
 ROSArduinoBase::ROSArduinoBase(ros::NodeHandle nh):
   nh_(nh),
   x_(0.0),
@@ -97,6 +99,7 @@ ROSArduinoBase::ROSArduinoBase(ros::NodeHandle nh):
   ROS_INFO("Starting ROS Arduino Base");
 }
 double transx=0,transy=0,rotz=0;
+
 void ROSArduinoBase::cmdVelCallback(const geometry_msgs::Twist::ConstPtr& vel_msg)
 {
   ros_arduino_msgs::CmdDiffVel cmd_diff_vel_msg;
@@ -137,6 +140,7 @@ void ROSArduinoBase::motorGainsCallback(ros_arduino_base::MotorGainsConfig &conf
 
 void ROSArduinoBase::encodersCallback(const ros_arduino_msgs::Encoders::ConstPtr& encoders_msg)
 {
+  std::string odom_frame_="odom",base_frame_="base_link";	
   nav_msgs::Odometry odom;
   left_counts_ = encoders_msg->left;
   right_counts_ = encoders_msg->right;
@@ -156,8 +160,8 @@ void ROSArduinoBase::encodersCallback(const ros_arduino_msgs::Encoders::ConstPtr
   ros_arduino_msgs::CmdDiffVel diff_vel_msg;
   geometry_msgs::Quaternion odom_quat = tf::createQuaternionMsgFromYaw(theta_);
 
-  if (publish_tf_)
-  {
+  //if (publish_tf_)
+  //{
     odom_broadcaster_ = new tf::TransformBroadcaster();
     geometry_msgs::TransformStamped odom_trans;
     odom_trans.header.stamp = encoders_msg->header.stamp;
@@ -168,7 +172,7 @@ void ROSArduinoBase::encodersCallback(const ros_arduino_msgs::Encoders::ConstPtr
     odom_trans.transform.translation.z = 0.0;
     odom_trans.transform.rotation = odom_quat;
     odom_broadcaster_->sendTransform(odom_trans);
-  }
+  //}
 
   diff_vel_msg.left = velocity_estimate_left_;
   diff_vel_msg.right  = velocity_estimate_right_;
